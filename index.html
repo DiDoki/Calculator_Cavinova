@@ -1,65 +1,74 @@
-<!DOCTYPE html>
-<html lang="ru">
-	<head>
-		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>		
-        
-		<Link rel="stylesheet" href="style.css"></Link>
-		
-		<script src="script.js"></script>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
 
-	<title>Caviniva</title>
-	</head>
-	<body>
-      
+    </head>
 
-		<div class="container-calc">
-			<div class="inp" id="input">
-				<input placeholder="0">
-			</div>
-			<div id="btn1" class="btn">1</div>
-			<div id="btn2" class="btn">2</div>
-			<div id="btn3" class="btn">3</div>
-			<div id="btn4" class="btn">4</div>
-			<div id="btn5" class="btn">5</div>
-			<div id="btn6" class="btn">6</div>
-			<div id="btn7" class="btn">7</div>
-			<div id="btn8" class="btn">8</div>
-			<div id="btn9" class="btn">9</div>
-			<div id="btn0" class="btn">0</div>
-			<div id="btn11" class="btn">.</div>
-			<div id="btn12" class="btn">=</div>
-			<div id="btn_p" class="btn_2" onclick="document.getElementById('input').innerHTML=Rezult()+'+';">+</div>
-			<div id="btn_m" class="btn_2" onclick="document.getElementById('input').innerHTML=Rezult()+'-';">-</div>
-			<div id="btn_d" class="btn_2" onclick="document.getElementById('input').innerHTML=Rezult()+'/';">/</div>
-			<div id="btn_y" class="btn_2" onclick="document.getElementById('input').innerHTML=Rezult()+'*';">*</div>
-		</div>
+    <body>
+       <h1></h1>
+
+
+
+
+<ul>
+    <li>text</li>
+    <li>text</li>
+    <li>text</li>
+    <li>text</li>
+</ul>
+<ul class="list">
+    <li>text</li>
+    <li>text</li>
+    <li>text</li>
+    <li>text</li>
+</ul>
+
+
+
+
 <script>
-       function Rezult(){let rez = document.getElementById('input').textContent;
-return rez;}
+let el= document.querySelector('ul.list')
 
-        for(let i=0;i<10;i++){document.getElementById("btn"+i).onclick=function(){
-         document.getElementById('input').innerHTML=Rezult()+i;}
-}
-
-btn12.onclick=function(){document.getElementById('input').innerHTML=eval(Rezult());}
-
-		</script>
-		
-			
-			
-		
-	</body>
-
-
-
-            
-       
+el.style.color='red';
 
 
 
 
 
 
-</body>
+</script>
+
+
+
+
+
+
+
+
+        
+    </body>
+
+
+    </html>                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
